@@ -1,8 +1,5 @@
 main = do
-  putStrLn (listLast [1,2,3,4])
-
---Empty data
-data Void
+  print (listLast [1,2,3,4])
 
 listLast :: [a] -> a
 listLast [x] = x
